@@ -1,4 +1,4 @@
 # Todo-List
 ## Aplicativo criado em Javascript o Todo-list
 
-<img src="task.gif">
+<img src="./img/task.gif">
