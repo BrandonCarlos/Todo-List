@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+article {
+  max-width: 80rem;
+  margin: 0 auto;
+  background: blue;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+article h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+form label {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+form button {
+  padding: 1rem 1.5rem;
+  color: blue;
+  background: white;
+  border: none;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.resp {
+  max-width: 30rem;
+}
+
+.resp-flex {
+  display: flex;
+  align-items: center;
+  background: green;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+.resp-flex img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.resp-flex p {
+  font-size: 2rem;
+  color: white;
+  word-break: break-all;
+}
+
+.paragrafo {
+  width: 100%;
+  background: green;
+  color: white;
+}
+
+.mariobros {
+  cursor: pointer;
+  margin-left: 1rem;
+}
